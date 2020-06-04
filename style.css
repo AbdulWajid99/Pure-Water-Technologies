@@ -12,6 +12,7 @@
 #menuBar {
     display: block;
     flex-wrap: wrap;
+
     /* margin-left: 50px; */
 }
 .menubarli ul li {
@@ -48,8 +49,9 @@ height: 45px;
 .navbar-toggler-icon:hover{
     color:white;
 }
-
-
+#navBar{
+    background-color:rgba(252, 247, 247, 0.774);
+}
 
 /* carousl */
 #carouselExampleCaptions p{
@@ -83,37 +85,36 @@ height: 45px;
 
 
 /* Footer */
-footer .main-footer{	padding: 20px 0;	background: #2e9ec3;}
+footer .main-footer{	padding: 20px 0;	background-color:rgba(252, 247, 247, 0.774);}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
 .footer-copyright {	background: #222;  ;	padding: 5px 0;}
-.footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
-.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
-.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
-.footer-copyright nav ul li a{	color: #969696;}
-.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
-.footer-copyright p {	color: white;	margin: 2px 0 0;}
+.footer-copyright p {	color: white !important;
+    	margin: 2px 0 0;}
+.footer-copyright p a{
+    color:rgb(45, 125, 230);
+}
 .footer-copyright p a:hover{
     color: #ffd800;
     cursor:pointer;
     transition:all .3s;
 }
-/* Footer Top */
-.footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
+#footer h5{
+    color:black;
+    font-weight: 600;
+}
+#footer p{
+    color:black;
+    font-weight: 600;
+}
 
-/* Footer transparent */
-footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
-footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
 
 /* Footer light */
 footer.light .footer-top{	background: #f9f9f9;}
 footer.light .main-footer{	background: #f9f9f9;}
 footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
-
-/* Footer 4 */
-.footer- .logo {    display: inline-block;}
 
 /*==================== 
 	Widgets 
@@ -189,7 +190,7 @@ transition: all 250ms ease-in-out 0s;
   }
   @media (pointer: coarse) and (hover: none) {
     .header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+      background: url('') black no-repeat center center scroll;
     }
     .header video {
       display: none;
@@ -360,11 +361,7 @@ a[data-toggle="collapse"] {
 }
 
 .dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+ 
 }
 
 ul ul a {
