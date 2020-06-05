@@ -20,18 +20,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutstyle.css">
     <!-- Js -->
     <script src="app.js">
-       
     </script>
+    <title>Pure Water Technology</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Website/favicon.png" />
 </head>
 
 <body>
 
 <Header>
   <!-- Upper Nav -->
-
-
+  
+<div class="header">
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="images/Website/Pexels Videos 2776522.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+<div class="card">
+  <div class="card-body">
+    The compoany was establied in october 2003 with the objective of providing tOotal Water Solution.
+  </div>
+<p>The worlds finest technology is used in our peoducts
+  Structural Composite Nuova Fima Waka Grundfos Praher Dow Filmtec 
+  Saehan CSM Astral Lowara Harmsco LMI Hanna Codeline Bekaert Ametek Dryden Aqua Allen-Bradly
+</p>
+</div>
+    </div>
+  </div>
 </div>
 <!-- <video  height="270" width="480" poster="images/water-918461_960_720.jpg" autoplay loop muted="">
   <source src="images/Pexels Videos 2776521.mp4">
@@ -39,23 +58,23 @@
 </video> -->
   
     <!-- Main Nav -->
-    <nav class="navbar navbar-expand-lg justify-content-around " style="background-color: #2e9ec3;">
-      <span><a href="index.html"><img class="navLogo" width="40px" height="40px" src="images/000810-online-3D-water-logo-free-water-logo-maker-02.png" alt="Logo"></a></span>  
+    <nav class="navbar navbar-expand-lg justify-content-around fixed-top" id="navBar">
+      <span><a href="index.html"><img class="navLogo" width="40px" height="40px" src="images/Website/favicon.png" alt="Logo"></a></span>  
         <!-- <img src="images/000810-online-3D-water-logo-free-water-logo-maker-02.png" alt="logo" id="logo"> -->
     <a href="index.html" style="text-decoration: none; margin-right: auto; padding-top: 5px; padding-left: 3px;"> 
       <p style="margin: 0px 0px 0px 0px; text-align: left; ">
         <h2 class="navName" style="text-align: center; color: #0fc3ff ;"> Pure Water
-        <span class="font-weight-600" style=" color: #2cd465;">Technologies</span></h2></a>
+        <span class="font-weight-800" style=" color: #2cd465;">Technologies</span></h2></a>
      
         <div id="menuBar">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse menubarli" id="navbarNavDropdown">
               <ul class="navbar-nav">
                   <li class="nav-item active ">
-                      <a class="nav-link" href="#"
+                      <a class="nav-link" href="index.html"
                           style=" color: black;
                           font-weight: 700 ; border-radius: 20px;">Home<span
                               class="sr-only">(current)</span></a>
@@ -67,7 +86,7 @@
                           About Us
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#"> Action</a>
+                          <a class="dropdown-item" href="aboutus.html"> Action</a>
                           <a class="dropdown-item" href="#">Another action</a>
                           <a class="dropdown-item" href="#">Something else here</a>
                       </div>
@@ -77,35 +96,52 @@
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle text-dark" href="product.html" id="navbarDropdownMenuLink"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Products
+                          High Purity Water
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="product.html">Osmosis</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="#">Commercial RO Plant</a>
+                          <a class="dropdown-item" href="#">Filtation sysrems</a>
+                          <a class="dropdown-item" href="#">wastewater Treatment</a>
+                          <a class="dropdown-item" href="#">Ponds and fish aquariums</a>
+                          <a class="dropdown-item" href="#">Swimming Pools & Jacuzzi</a>
+                          <a class="dropdown-item" href="#">Industrial RO Plant</a>
                       </div>
                   </li>
                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-dark" href="product.html" id="navbarDropdownMenuLink"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Products
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="">Solar</a>
+                         <a class="dropdown-item" href="#">Swimming Pools & Jacuzzi</a>
+                         <a class="dropdown-item" href="#">Something else here</a>
+                     </div>
+                 </li>
+                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Features
+                        Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">In-Home Consultation</a>
+                        <a class="dropdown-item" href="#">Installtion</a>
+                        <a class="dropdown-item" href="#">Salt Delivery</a>
+                        <a class="dropdown-item" href="#">Services & Repair</a>
+                        <a class="dropdown-item" href="#">Water Coolers</a>
+                        <a class="dropdown-item" href="#">Water Testing</a>
                     </div>
                 </li>
 
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Services
+                          Global Footprint
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="project.html">Projects</a>
+                        
                       </div>
                   </li>
                   <li class="nav-item">
@@ -115,31 +151,8 @@
           </div>
       </div>
   </nav>
-  <br/>
-  <br/>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 col-sm-6">
-        <div class="card" style="padding-bottom: 1000px;">
-        <h1 class="">Pure Water Technology
-        </h1>
-        <p class="">Proving quality services since</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="header">
-
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="images/Pexels Videos 2776521.mp4" type="video/mp4">
-  </video>
-</div>
 
     </Header>
-    <br/>
-<br/>
-
-
 
 <!-- <Footer> -->
 <footer id="footer" class="footer-1">
@@ -149,7 +162,7 @@
       
     <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="widget subscribe no-box">
-    <h5 class="widget-title">COMPANY NAME<span></span></h5>
+    <h5 class="widget-title">Pure Water Tec<span></span></h5>
     <p>About the company, little discription will goes here.. </p>
     </div>
     </div>
@@ -197,17 +210,8 @@
     <div class="widget no-box">
     <h5 class="widget-title">Contact Us<span></span></h5>
     
-    <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+    <p><a href="mailto:info@domain.com" title="glorythemes">Plot # 8, Sector 12 – B, North Karachi Industrial Area, Karachi, Pakistan. Tel # +92 332 3178261, email: pwtintl@gmail.com</a></p>
     <ul class="social-footer2">
-    <li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img alt="youtube" width="30" height="30" src=""></a></li>
-    <li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src=""></a></li>
-    <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src=""></a></li>
-    <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src=""></a></li>
-    </ul>
-    </div>
-    </div>
-    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-
     <!-- Grid row-->
     <div class="row pb-3">
 
@@ -247,6 +251,12 @@
       <!-- Grid column -->
 
     </div>
+    </ul>
+    </div>
+    </div>
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+
     <!-- Grid row-->
 
   </div>
@@ -260,7 +270,7 @@
     <div class="container">
     <div class="row">
     <div class="col-md-12 text-center">
-        <p style="color:whitesmoke;">&copy All right Reversed. <a class="footerlinks" href="https://www.facebook.com/profile.php?id=100008174927563"
+        <p>&copy All right Reversed. <a class="footerlinks" href="https://www.facebook.com/profile.php?id=100008174927563"
         target="_blank" style="text-decoration: none;">  Abdul Wajid</a></p>
      
     </div>
