@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productstyle.css">
     <link rel="stylesheet" href="aboutstyle.css">
     <!-- Js -->
     <script src="app.js">
@@ -30,32 +31,104 @@
 
 <body>
 
-<Header>
-  <!-- Upper Nav -->
-  
-<div class="header">
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="images/Website/Pexels Videos 2776522.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-<div class="card">
-  <div class="card-body">
-    The compoany was establied in october 2003 with the objective of providing tOotal Water Solution.
-  </div>
-<p>The worlds finest technology is used in our peoducts
-  Structural Composite Nuova Fima Waka Grundfos Praher Dow Filmtec 
-  Saehan CSM Astral Lowara Harmsco LMI Hanna Codeline Bekaert Ametek Dryden Aqua Allen-Bradly
-</p>
-</div>
+  <Header>
+    <!-- Upper Nav -->
+    <div class="header">
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="images/Website/Pexels Videos 2776522.mp4" type="video/mp4">
+      </video>
+        <div class="d-flex h-100 text-center align-items-center" >
+            <div class="card" style="width: 100%; height: 100%; margin-top: 190px; background: rgba(248, 248, 248, 0.7);">
+              <div class="card-body">
+     <!-- carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/productimages/slider1engineer.png" class="d-block w-100" alt="slide" >
+                  </div>
+                  <div class="col-6">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><u>Projexts pics</u></h5>
+                      <p>Over 3,000 successful projects across water stressed markets…
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/productimages/slider2corcodex.png" class="d-block w-100" alt="slide" >
+                  </div>
+                  <div class="col-6">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><u>International Representation</u></h5>
+                      <p>We are sole representative in Pakistan and Afghanistan for the Concorde-Corodex(LLC) & Hydrox(FZC) group of UAE..<span><a href="aboutus.html#In" style="color: blue;"> See more </a></span> Which are one of the leading entities
+                        in Water Industries.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/productimages/slider1engineer.png" class="d-block w-100" alt="slide" >
+                  </div>
+                  <div class="col-6">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><u>Quality is Our Top Pirority</u></h5>
+                      <p>Every Industry has a need and we provide innovative solutions in accordance with the National Environmental Quality Standards.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/productimages/slider1engineer.png" class="d-block w-100" alt="slide" >
+                  </div>
+                  <div class="col-6">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><u>Expe</u></h5>
+                      <p>A wide range of industries spanning 46 countries trust Metito for managing their water needs. 
+                        Over 60 years of experience is just one reason…Designing innovative solutions and developing sustainable projects….<
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+              </div>
+          </div>
+        </div>
     </div>
-  </div>
-</div>
-<!-- <video  height="270" width="480" poster="images/water-918461_960_720.jpg" autoplay loop muted="">
-  <source src="images/Pexels Videos 2776521.mp4">
-  <p class="warning">Your browser does not support HTML5 video.</p>
-</video> -->
+  <br/>
   
     <!-- Main Nav -->
     <nav class="navbar navbar-expand-lg justify-content-around fixed-top" id="navBar">
@@ -153,7 +226,69 @@
   </nav>
 
     </Header>
+    <div class="mainbodyabout">
+      <br/>
+<div class="card">
+  <div class="card-body">
+    <p id="expertise">
+      Our Technical expertise is a blend of :
+      <ol>
+        <li>Mechanical Engineering</li>
+        <li>Electrical Engineering</li>
+        <li>Civil</li>
+        <li>Chemical</li>
+        <li>Hydro Geologists</li>
+        <li>Creative Designers & Architects</li>
+        <li>Research & Marketing Analysts</li>
+      </ol>
+      Our Engineers have a rich international exposure in the field of Water Treatment
+     by utilizing world class technology and brand. We offer innovative solutions to complex problems with an innovative approach and strong backup support.
+    </p>
+<P id="international">
+    <h5><u>International Representation</u></h5>
+    We are sole representative in Pakistan and Afghanistan for 
+      <ul>
+        <li>Trinetics Inc. USA.</li>
+        <li>Envirogem Canada</li>
+        <li>Concorde-Corodex(LLC) group of UAE</li>
+      </ul>
+      Which are one of the leading entities in Water Industries.
 
+<p>The worlds finest technology is used in our peoducts
+  Structural Composite Nuova Fima Waka Grundfos Praher Dow Filmtec 
+  Saehan CSM Astral Lowara Harmsco LMI Hanna Codeline Bekaert Ametek Dryden Aqua Allen-Bradly
+</p>
+</P>
+<div class="flowchart">
+  <div class="container-fluid">
+    <h5>Organizational Stucture</h5>
+    <img src="images/aboutus/flowchart.png" alt="" width="100%">
+
+  </div>
+</div>
+
+<div>
+
+</div>
+
+</div>
+<div class="tech">
+
+  <div class="card">
+    <div class="card-body">
+      <h1 id="tech" class="display-3" style="text-align: center; color:#dff7ff ;text-shadow: 2px 2px 2px black; font-size: 40px !important ; font-weight: bold;">
+        <u>Technology We Use</u> <span  style="color:#dff7ff ;text-shadow: 2px 2px 2px black; font-size: 25px;">(No Compromise in Qualty)</span>
+        <img src="images/aboutus/techweuse.png" alt="techImage">
+        <img src="images/aboutus/techweuse2.png" alt="techImage">
+        <span  style="color:c ;text-shadow: 2px 2px 2px black; font-size: 25px;"></span>
+    </h1>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<br/>
 <!-- <Footer> -->
 <footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">
