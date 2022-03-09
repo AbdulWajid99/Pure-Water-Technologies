@@ -20,7 +20,7 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 Run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/AbdulWajid99/SaylaniWeb
+git clone https://github.com/AbdulWajid99/Pure-Water-Technologies
 ```
 
 - Once the files are on your machine, open the _html-css-javascript-getting-started_ folder in [Visual Studio Code](https://code.visualstudio.com/).
